@@ -11,7 +11,7 @@ document.getElementById('uploadForm').onsubmit = async function (e) {
 
     statusDiv.textContent = "Uploading...";
 
-    const backendUrl = "http://98.130.84.3:8080/upload"; // Replace <EC2-Public-IP>
+    const backendUrl = "http://18.60.41.169:8080/upload"; // Replace <EC2-Public-IP>
 
     const formData = new FormData();
     formData.append('file', file);
